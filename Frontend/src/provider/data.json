@@ -1,0 +1,103 @@
+{
+	"Skills": {
+		"Technical": [
+			{ "id": 101, "name": "Python", "percentage": 90, "type": "Skill" },
+			{ "id": 102, "name": "Java (Core)", "percentage": 60, "type": "Skill" },
+			{ "id": 103, "name": "JavaScript", "percentage": 85, "type": "Skill" },
+			{ "id": 104, "name": "Data Structures & Algorithms", "percentage": 60, "type": "Skill" }
+		],
+		"Web Technologies": [
+			{ "id": 201, "name": "HTML", "percentage": 90, "type": "Skill" },
+			{ "id": 202, "name": "CSS", "percentage": 85, "type": "Skill" },
+			{ "id": 203, "name": "React.js", "percentage": 70, "type": "Skill" },
+			{ "id": 208, "name": "Redux Toolkit", "percentage": 70, "type": "Skill" },
+			{ "id": 204, "name": "TailwindCSS", "percentage": 75, "type": "Skill" },
+			{ "id": 205, "name": "Node.js", "percentage": 80, "type": "Skill" },
+			{ "id": 206, "name": "MongoDB", "percentage": 70, "type": "Skill" },
+			{ "id": 207, "name": "SQL", "percentage": 60, "type": "Skill" }
+		],
+		"Internships": [
+			{
+				"id": 301,
+				"name": "Machine Learning Intern",
+				"issuer": "Indian Servers Pvt. Ltd",
+				"year": "06/2023 to 07/2023",
+				"type": "Internship",
+				"imageLink": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg"
+			},
+			{
+				"id": 302,
+				"name": "Full Stack Development Intern",
+				"issuer": "Data Valley Pvt. Ltd",
+				"year": "05/2024 to 07/2024",
+				"type": "Internship",
+				"imageLink": "https://images.pexels.com/photos/1266820/pexels-photo-1266820.jpeg"
+			}
+		],
+		"Certification": [
+			{
+				"id": 401,
+				"name": "Advanced JavaScript",
+				"issuer": "Great Learning",
+				"type": "Certificate",
+				"imageLink": "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg"
+			},
+			{
+				"id": 402,
+				"name": "Computing Using Python",
+				"issuer": "NPTEL, IIT Madras",
+				"type": "Certificate",
+				"imageLink": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg"
+			},
+			{
+				"id": 403,
+				"name": "Java Full Stack",
+				"issuer": "Wipro Talent Next",
+				"type": "Certificate",
+				"imageLink": "https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg"
+			}
+		]
+	},
+	"Projects": [
+		{
+			"id": 501,
+			"title": "Recipe Finder",
+			"image": "/Recipe_Finder.png",
+			"tech": ["React.js", "TailwindCSS", "Redux Toolkit"],
+			"link": "https://recipe-finder-app1.vercel.app/"
+		},
+		{
+			"id": 502,
+			"title": "My Portfolio",
+			"image": "/Portfolio.png",
+			"tech": ["React.js", "TailwindCSS", "Redux Toolkit", "Express.js", "MongoDB"],
+			"link": "https://recipe-finder-app1.vercel.app/"
+		}
+	],
+	"Education": [
+		{
+			"id": 601,
+			"year": "2022 - 2025",
+			"institution": "St. Ann's College of Engineering and Technology",
+			"degree": "CSE - AI & ML",
+			"percentage": "CGPA: 8.0",
+			"level": "Undergraduate"
+		},
+		{
+			"id": 602,
+			"year": "2019 - 2022",
+			"institution": "Bapatla Polytechnic College, Bapatla",
+			"degree": "Diploma in Mechanical",
+			"percentage": "Percentage: 89.4",
+			"level": "Diploma"
+		},
+		{
+			"id": 603,
+			"year": "2014 - 2019",
+			"institution": "Z.P.H Boys School, Epurupalem",
+			"degree": "10th Class (SSC)",
+			"percentage": "CGPA: 9.3",
+			"level": "High School"
+		}
+	]
+}
